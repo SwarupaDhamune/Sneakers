@@ -1,0 +1,41 @@
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #dfe4e9;
+}
+.navbar-brand {
+  font-size: 1.8rem;
+  color: #000;
+}
+.hero {
+  background: url('C:\Users\MY PC\Desktop\Auroskill\project assignment\img\sh1.webp') center;
+  color: rgb(0, 0, 0);
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+.product-card {
+  transition: transform 0.3s ease;
+}
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 40px 0;
+}
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
